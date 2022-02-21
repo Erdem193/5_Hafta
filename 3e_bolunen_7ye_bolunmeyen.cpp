@@ -9,7 +9,7 @@ int main(){
   int adet=0;
   for(int j=1;j<=100;j++){
     x+=1;
-    if(x%3==0&& x%7!=0){
+    if(x%3==0 && x%7!=0){
       adet+=1;
     }
   }
